@@ -1,4 +1,4 @@
-# AcgIce search open source instructions
+# AcgIce search 
 
 AcgIce search is a multi-language aggregate search engine developed with PHP7. For better development, open source, the protocol uses AGPL-3.0, I hope you can abide by this open source agreement. Welcome to develop and maintain the Accece search together.
 
@@ -6,7 +6,7 @@ Url：https://www.acgice.com/
 
 
 
-## Project Introduction
+## Introduction
 
 Inspired by the secret search, I used PHP to make this project (there is a personal squirting PHP is rubbish, I used PHP to do this and hit his face)
 
@@ -18,14 +18,14 @@ By: Orzice alone
 
 
 
-## Environmental requirements
+## Requirements
 
 ```
 PHP >= 7.3
 Memcache Or Redis
 ```
 
-## Environmental dependence
+## Dependence
 
 - ThinkPHP 5.0.24 Edition http://www.thinkphp.cn/  Download by yourself
 
@@ -45,7 +45,7 @@ Guzzle Document：https://guzzle-cn.readthedocs.io/zh_CN/latest/overview.html
 
 
 
-## Environmental configuration
+## config
 
 - Please configure the information of the root directory index.php entry file.
 
@@ -53,7 +53,7 @@ Guzzle Document：https://guzzle-cn.readthedocs.io/zh_CN/latest/overview.html
 
 
 
-## Agreement requirements（AGPL-3.0）
+## Requirements（AGPL-3.0）
 
 You are requested to keep the Github open source address and to abide by the AGPL-3.0 protocol.
 
