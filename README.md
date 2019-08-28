@@ -6,9 +6,13 @@ AcgIce搜索是使用PHP7开发的一款多语言聚合搜索引擎，为了更�
 
 
 
+## 项目介绍
+
 受到 秘迹搜索 的 启发，使用了PHP制作了此项目（有个人喷PHP就是垃圾，我就用PHP做了这个打了他的脸）
 
-项目前端参考于 秘迹搜索：https://github.com/entropage/mijisou/
+项目前端参考于 秘迹搜索：https://github.com/entropage/mijisou/，并进行了一系列的改动优化。
+
+一个轻量的聚合搜索多语言框架。
 
 
 
@@ -22,7 +26,10 @@ Memcache Or Redis
 ## 环境依赖
 
 - ThinkPHP 5.0.24版本 http://www.thinkphp.cn/  自行下载
-- AcgIce 扩展（必须安装）：https://github.com/orzice/acgice-extend  使用以下命令，会自动搭建依赖。
+
+- AcgIce 扩展（必须安装）：https://github.com/orzice/acgice-extend  
+
+  使用以下命令，会自动搭建依赖。
 
 ```
 composer require acgice/acgice-extend
@@ -36,11 +43,9 @@ Guzzle文档：https://guzzle-cn.readthedocs.io/zh_CN/latest/overview.html
 
 
 
-## 协议要求
+## 协议要求（AGPL-3.0）
 
-请求您保留以下内容。
-
-允许商业化。
+请求您保留以下内容，并遵守 AGPL-3.0 协议。
 
 ![1](1.jpg)
 

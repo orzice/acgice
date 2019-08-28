@@ -27,28 +27,12 @@ $app_config['User-Agent'] = [
 
 //友情链接
 $app_config['link'][] = array(
-    'key' => 'AcFun',
-    'pic' => 'https://tva4.sinaimg.cn/mw690/007OS56Yly1g4tcvgqw65j30c20c2tft.jpg'
-    );
-$app_config['link'][] = array(
-    'key' => 'Bilibili',
-    'pic' => 'https://tva2.sinaimg.cn/mw690/007OS56Yly1g4tcvgque6j30c20c2gov.jpg'
-    );
-$app_config['link'][] = array(
-    'key' => 'Missevan',
-    'pic' => 'https://tva4.sinaimg.cn/large/007OS56Yly1g4wuhcoik9j3040040mx5.jpg'
+    'key' => 'Acgice',
+    'pic' => 'https://tva1.sinaimg.cn/mw690/007OS56Yly1g4tdfk0jojj30c20c23yq.jpg'
     );
 $app_config['link'][] = array(
     'key' => 'Orzice',
     'pic' => 'https://tva1.sinaimg.cn/mw690/007OS56Yly1g4tdfk0jojj30c20c23yq.jpg'
-    );
-$app_config['link'][] = array(
-    'key' => 'Pixiv',
-    'pic' => 'https://tva2.sinaimg.cn/large/007OS56Yly1g4tcvgquwqj30c20c2dgq.jpg'
-    );
-$app_config['link'][] = array(
-    'key' => 'Steam',
-    'pic' => 'https://tva4.sinaimg.cn/mw690/007OS56Yly1g4tdx79u9bj30do0dognc.jpg'
     );
 $app_config['link'][] = array(
     'key' => 'Baidu',
