@@ -153,72 +153,7 @@ function getBaseDomain($url=''){
   }
   return $res;
 }
-/*
- + 产生随机[数字]验证码
- + @return string;
-*/
-function yanzhengma($length = 6){
-    $min = pow(10 , ($length - 1));
-    $max = pow(10, $length) - 1;
-    return rand($min, $max);
-}
 
-//判断是否是300box访问
-function is_box300(){
-  if(!isset($_SERVER['HTTP_USER_AGENT'])){
-    return false;
-  }
-  $ua = $_SERVER['HTTP_USER_AGENT'];  
-  //MicroMessenger 是android/iphone版微信所带的
-  //Windows Phone 是winphone版微信带的  (这个标识会误伤winphone普通浏览器的访问)
-  //if(strpos($ua, 'MicroMessenger') == false || strpos($ua, 'Windows Phone') == false){ 
-  if(strpos($ua, '300herobox') == false){  
-      return false;
-  }else{  
-      return true;
-  }
-}
-//判断是否是微信访问
-function is_weixin(){
-  if(!isset($_SERVER['HTTP_USER_AGENT'])){
-    return false;
-  }
-  $ua = $_SERVER['HTTP_USER_AGENT'];  
-  //MicroMessenger 是android/iphone版微信所带的
-  //Windows Phone 是winphone版微信带的  (这个标识会误伤winphone普通浏览器的访问)
-  //if(strpos($ua, 'MicroMessenger') == false || strpos($ua, 'Windows Phone') == false){ 
-  if(strpos($ua, 'MicroMessenger') == false){  
- 
-      return false;
-  }else{  
-      return true;
-  }
-}
-//从字符串中寻找URL并转换
-function is_txt_url($text){
-// 自动寻找URL并转换为链接模式
-$regex = '@(?i)\b((?:[a-z][\w-]+:(?:/{1,3}|[a-z0-9%])|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:\'".,<>?«»“”‘’]))@';
-preg_match_all($regex,$text,$array); 
-
-if(count($array[0]) == 0){
-  return $text;
-}
-
-$array = $array[0];
-
-for ($i=0; $i < count($array); $i++) { 
-  //首先排除 被转化过的
-  if(!stripos($text,']'.$array[$i])){
-    //排除 另一种转换的
-    if(!stripos($text,'='.$array[$i])){
-      $text = str_replace($array[$i],'[url]'.$array[$i].'[/url]',$text);
-    }
-  }
-}
-
-return $text;
-
-}
 //判断来源
 function is_platform(){
   //判断来源
@@ -230,32 +165,7 @@ function is_platform(){
     return 'pc';
    }
 }
-//判断来源是否是微信小程序
-function is_WXapp(){
-  //判断来源
-  if(!isset($_SERVER['HTTP_REFERER'])){
-      return false;
-  }
-  $HTTP_REFERER = $_SERVER['HTTP_REFERER'];
-  //默认是 https://servicewechat.com/wxc4ae5c5f431e6bba/devtools/page-frame.html
-  $APPID = Wxcx_APPID;//微信小程序APPid
-  $URL = 'https://servicewechat.com/'.$APPID.'/';
 
-  $pos = strpos($HTTP_REFERER, $URL);
-  if($pos === false){
-      return false;
-  }
-  return true;
-
-}
-
-
-//获取文件扩展名？
-function get_extension($file)
-{
-return substr(strrchr($file, '.'), 1);
-}
-   
 
 /**
  * 数组 转 对象

@@ -11,6 +11,7 @@
 
 // 核心英文语言包
 return [
+    '开源项目'                                         => 'Open source projects',
     // 系统错误提示
     '这是一个采用 PHP7 制作的聚合搜索引擎'             => 'This is a aggregate search engine built with php7',
     '二次元聚合搜索和导航姬'                     => 'Quadratic aggregate search and navigation',
