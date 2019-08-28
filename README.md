@@ -10,7 +10,7 @@ AcgIce搜索是使用PHP7开发的一款多语言聚合搜索引擎，为了更�
 
 受到 秘迹搜索 的 启发，使用了PHP制作了此项目（有个人喷PHP就是垃圾，我就用PHP做了这个打了他的脸）
 
-项目前端参考于 秘迹搜索：https://github.com/entropage/mijisou/，并进行了一系列的改动优化。
+项目前端参考于 秘迹搜索：https://github.com/entropage/mijisou/  并进行了一系列的改动优化。
 
 一个轻量的聚合搜索多语言框架。
 
