@@ -21,7 +21,7 @@ Memcache Or Redis
 
 ## 环境依赖
 
-- ThinkPHP5.0 http://www.thinkphp.cn/  自行下载
+- ThinkPHP 5.0.24版本 http://www.thinkphp.cn/  自行下载
 - AcgIce 扩展（必须安装）：https://github.com/orzice/acgice-extend  使用以下命令，会自动搭建依赖。
 
 ```
@@ -42,9 +42,7 @@ Guzzle文档：https://guzzle-cn.readthedocs.io/zh_CN/latest/overview.html
 
 允许商业化。
 
-![](C:\Users\Administrator\Desktop\TIM截图20190828121951.jpg)
-
-
+![1](1.jpg)
 
 
 
