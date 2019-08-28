@@ -18,7 +18,7 @@ Memcache Or Redis
 ## 环境依赖
 
 - ThinkPHP5.0 http://www.thinkphp.cn/  自行下载
-- AcgIce 扩展（）：https://github.com/orzice/acgice-extend  使用以下命令，会自动搭建依赖。
+- AcgIce 扩展（必须安装）：https://github.com/orzice/acgice-extend  使用以下命令，会自动搭建依赖。
 
 ```
 composer require acgice/acgice-extend
