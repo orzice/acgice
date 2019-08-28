@@ -31,7 +31,7 @@ Memcache Or Redis
 
 - AcgIce 扩展（必须安装）：https://github.com/orzice/acgice-extend  
 
-  使用以下命令，会自动搭建依赖。
+  使用 composer 命令，全自动搭建依赖。
 
 ```
 composer require acgice/acgice-extend
