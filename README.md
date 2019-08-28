@@ -66,9 +66,9 @@ You are requested to keep the Github open source address and to abide by the AGP
 ```
 QQ: 1073519986 
 
-邮件: admin@orzice.com
+e-mail: admin@orzice.com
 
-公司：许昌市冰尘网络科技有限公司
+company：许昌市冰尘网络科技有限公司（China）
 ```
 
 
