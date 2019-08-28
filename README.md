@@ -1,37 +1,37 @@
-# AcgIce搜索开源说明
+# AcgIce search open source instructions
 
-AcgIce搜索是使用PHP7开发的一款多语言聚合搜索引擎，为了更好的发展所以开源，协议采用AGPL-3.0，希望您可以遵守这个开源协议。欢迎一起开发和维护Acgice搜索。
+AcgIce search is a multi-language aggregate search engine developed with PHP7. For better development, open source, the protocol uses AGPL-3.0, I hope you can abide by this open source agreement. Welcome to develop and maintain the Accece search together.
 
-网址：https://www.acgice.com/
-
-
-
-## 项目介绍
-
-受到 秘迹搜索 的 启发，使用了PHP制作了此项目（有个人喷PHP就是垃圾，我就用PHP做了这个打了他的脸）
-
-项目前端参考于 秘迹搜索：https://github.com/entropage/mijisou/  并进行了一系列的改动优化。
-
-一个轻量的聚合搜索多语言框架。
-
-由：Orzice 一个人独立完成
+Url：https://www.acgice.com/
 
 
 
-## 环境要求
+## Project Introduction
+
+Inspired by the secret search, I used PHP to make this project (there is a personal squirting PHP is rubbish, I used PHP to do this and hit his face)
+
+The project front end is referenced to the secret search: https://github.com/entropage/mijisou/ and a series of changes have been optimized.
+
+A lightweight aggregate search multi-language framework.
+
+By: Orzice alone
+
+
+
+## Environmental requirements
 
 ```
-PHP > 7.3
+PHP >= 7.3
 Memcache Or Redis
 ```
 
-## 环境依赖
+## Environmental dependence
 
-- ThinkPHP 5.0.24版本 http://www.thinkphp.cn/  自行下载
+- ThinkPHP 5.0.24 Edition http://www.thinkphp.cn/  Download by yourself
 
-- AcgIce 扩展（必须安装）：https://github.com/orzice/acgice-extend  
+- AcgIce Extension (must be installed)：https://github.com/orzice/acgice-extend  
 
-  使用 composer 命令，全自动搭建依赖。
+  Use the composer command to build dependencies fully automatically.
 
 ```
 composer require acgice/acgice-extend
@@ -39,29 +39,29 @@ composer require acgice/acgice-extend
 
 
 
-HTTP客户端采用 GuzzleHttp，当你安装了 AcgIce扩展， 默认就安装了。
+The HTTP client uses GuzzleHttp, which is installed by default when you install the AcgIce extension.
 
-Guzzle文档：https://guzzle-cn.readthedocs.io/zh_CN/latest/overview.html
-
-
-
-## 环境配置
-
-- 请配置根目录 index.php 入口文件的信息。
-
-- www/config.php  修改TP5环境配置。
+Guzzle Document：https://guzzle-cn.readthedocs.io/zh_CN/latest/overview.html
 
 
 
-## 协议要求（AGPL-3.0）
+## Environmental configuration
 
-请求您保留Github开源的地址，并遵守 AGPL-3.0 协议。
+- Please configure the information of the root directory index.php entry file.
+
+- www/config.php Modify the TP5 environment configuration.
+
+
+
+## Agreement requirements（AGPL-3.0）
+
+You are requested to keep the Github open source address and to abide by the AGPL-3.0 protocol.
 
 ![1](1.jpg)
 
 
 
-## Acgice搜索反馈渠道和联系方式
+## Acgice search feedback channels and contact information
 
 ```
 QQ: 1073519986 
@@ -73,4 +73,4 @@ QQ: 1073519986
 
 
 
-由此可以只用写搜索扩展（核心）就好了，获取数据，系统会自动处理进行展现的。
+Therefore, it is only necessary to use the write search extension (core), and the data is acquired, and the system automatically processes and displays it.
