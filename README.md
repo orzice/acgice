@@ -45,6 +45,14 @@ Guzzle文档：https://guzzle-cn.readthedocs.io/zh_CN/latest/overview.html
 
 
 
+## 环境配置
+
+- 请配置根目录 index.php 入口文件的信息。
+
+- www/config.php  修改TP5环境配置。
+
+
+
 ## 协议要求（AGPL-3.0）
 
 请求您保留Github开源的地址，并遵守 AGPL-3.0 协议。
