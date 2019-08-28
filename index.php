@@ -25,7 +25,7 @@ define('S_Keywords', 'AcgIce,acg,ice');
 define('S_Description', '');
 
 // 定义根目录
-define('G_URL', '/tp/acgice/');//tp/acgice/
+define('G_URL', '/tp/Acgice开源版/');//tp/Acgice开源版/
 // 定义css等的URL
 define('CSS_URL', G_URL.'static/');
 

@@ -17,21 +17,16 @@ Memcache Or Redis
 
 ## 环境依赖
 
-- ThinkPHP5.0 http://www.thinkphp.cn/
-- QueryList https://github.com/jae-jae/querylist 
-
-```
-composer require jaeger/querylist
-composer require jaeger/querylist-absolute-url
-```
-
-AcgIce 扩展（搜索源）：https://github.com/orzice/acgice-extend
+- ThinkPHP5.0 http://www.thinkphp.cn/  自行下载
+- AcgIce 扩展（）：https://github.com/orzice/acgice-extend  使用以下命令，会自动搭建依赖。
 
 ```
 composer require acgice/acgice-extend
 ```
 
-HTTP客户端采用 GuzzleHttp，当你安装了 QueryList 后 默认就安装了。（你要是用Curl也没事。）
+
+
+HTTP客户端采用 GuzzleHttp，当你安装了 AcgIce扩展， 默认就安装了。
 
 Guzzle文档：https://guzzle-cn.readthedocs.io/zh_CN/latest/overview.html
 
