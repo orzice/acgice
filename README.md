@@ -14,6 +14,8 @@ AcgIce搜索是使用PHP7开发的一款多语言聚合搜索引擎，为了更�
 
 一个轻量的聚合搜索多语言框架。
 
+由：Orzice 一个人独立完成
+
 
 
 ## 环境要求
@@ -45,7 +47,7 @@ Guzzle文档：https://guzzle-cn.readthedocs.io/zh_CN/latest/overview.html
 
 ## 协议要求（AGPL-3.0）
 
-请求您保留以下内容，并遵守 AGPL-3.0 协议。
+请求您保留Github开源的地址，并遵守 AGPL-3.0 协议。
 
 ![1](1.jpg)
 
