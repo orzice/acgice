@@ -1,0 +1,6 @@
+runtime/*
+vendor/*
+www/index/view/*
+static/*
+composer.json
+composer.lock

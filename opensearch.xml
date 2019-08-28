@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>AcgIce搜索</ShortName>
+  <Description>This is an aggregate search engine based on PHP7</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image>https://www.acgice.com/favicon.png</Image>
+  <LongName>AcgIce Search</LongName>
+    <Url type="text/html" method="get" template="https://www.acgice.com/?q={searchTerms}"/>
+</OpenSearchDescription>
